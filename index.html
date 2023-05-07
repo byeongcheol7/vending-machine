@@ -1,0 +1,833 @@
+﻿<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="vending machien"
+      content="width=debvice-width, initial-scale=1.0"
+    />
+    <title>vending machien</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <link
+      href="https://noonnu.cc/font_page/1157;600;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <!-- Bar -->
+  <ul class="bar">
+    <li class="bar__item" data-key="*" data-value="*">All</li>
+    <li class="bar__item" 
+      data-key="type" 
+      data-value="umbllera"
+    >
+      umbllera
+    </li>
+    <li 
+      class="bar__item" 
+      data-key="type" 
+      data-value="raincoat"
+    >
+      raincoat
+    </li>
+    <li class="bar__item" 
+      data-key="type" 
+      data-value="rainboots"
+    >
+      rainboots
+    </li>
+    <li class="bar__item" 
+      data-key="type" 
+      data-value="towel"
+    >
+      towel
+    </li>
+  </ul>
+  <!-- Main -->
+  <div class="main">
+  <ul class="main_item">
+    <li class="umbllera" 
+      data-name="umbllera1" 
+      data-class=".list-display1" 
+      data-plus=".plusBtn1" 
+      data-minus=".minusBtn1" 
+      data-cancel=".cancelBtn1" 
+      data-amount=".amount1" 
+      data-rainydayvalue=".rainydayvalue1" 
+      data-price="10000"
+    >
+    <button class="btns">
+    <img src="imgs/umbllera/umbllera1.png" 
+         alt="umbllera" 
+         class="umbllera__img"
+    >
+    <span class="umbllera__name">umbllera1</span>
+    <span class="umbllera__price">10000원</span>
+    </button>
+    </li>
+    <li class="umbllera" 
+      data-name="umbllera2" 
+      data-class=".list-display2" 
+      data-plus=".plusBtn2" 
+      data-minus=".minusBtn2" 
+      data-cancel=".cancelBtn2" 
+      data-amount=".amount2" 
+      data-rainydayvalue=".rainydayvalue2" 
+      data-price="10000"
+    >
+    <button class="btns">
+    <img src="imgs/umbllera/umbllera2.png" 
+         alt="umbllera" 
+         class="umbllera__img"
+    >
+    <span class="umbllera__name">umbllera2</span>
+    <span class="umbllera__price">10000원</span>
+    </button>
+    </li>
+    <li class="umbllera" 
+      data-name="umbllera3" 
+      data-class=".list-display3" 
+      data-plus=".plusBtn3" 
+      data-minus=".minusBtn3" 
+      data-cancel=".cancelBtn3" 
+      data-amount=".amount3" 
+      data-rainydayvalue=".rainydayvalue3" 
+      data-price="7000"
+    >
+    <button class="btns">
+    <img src="imgs/umbllera/umbllera3.png" 
+         alt="umbllera" 
+         class="umbllera__img"
+    >
+    <span class="umbllera__name">umbllera3</span>
+    <span class="umbllera__price">7000원</span>
+    </button>
+    </li>
+    <li class="umbllera" 
+      data-name="umbllera4" 
+      data-class=".list-display4" 
+      data-plus=".plusBtn4" 
+      data-minus=".minusBtn4" 
+      data-cancel=".cancelBtn4" 
+      data-amount=".amount4" 
+      data-rainydayvalue=".rainydayvalue4" 
+      data-price="7000"
+    >
+    <button class="btns">
+    <img src="imgs/umbllera/umbllera4.png" 
+         alt="umbllera" 
+         class="umbllera__img"
+    >
+    <span class="umbllera__name">umbllera4</span>
+    <span class="umbllera__price">7000원</span>
+    </button>
+    </li>
+    <li class="raincoat" 
+      data-name="raincoat1" 
+      data-class=".list-display5" 
+      data-plus=".plusBtn5" 
+      data-minus=".minusBtn5" 
+      data-cancel=".cancelBtn5" 
+      data-amount=".amount5" 
+      data-rainydayvalue=".rainydayvalue5" 
+      data-price="10000"
+    >
+    <button class="btns">
+    <img src="imgs/raincoat/raincoat1.png" 
+         alt="raincoat" 
+         class="raincoat__img"
+    >
+    <span class="raincoat__name">raincoat1</span>
+    <span class="raincoat__price">10000원</span>
+    </button>
+    </li>
+    <li class="raincoat" 
+      data-name="raincoat2" 
+      data-class=".list-display6" 
+      data-plus=".plusBtn6" 
+      data-minus=".minusBtn6" 
+      data-cancel=".cancelBtn6" 
+      data-amount=".amount6" 
+      data-rainydayvalue=".rainydayvalue6" 
+      data-price="10000"
+    >
+    <button class="btns">
+    <img src="imgs/raincoat/raincoat2.png" 
+         alt="raincoat" 
+         class="raincoat__img"
+    >
+    <span class="raincoat__name">raincoat2</span>
+    <span class="raincoat__price">10000원</span>
+    </button>
+    </li>
+    <li class="raincoat" 
+      data-name="raincoat3" 
+      data-class=".list-display7" 
+      data-plus=".plusBtn7" 
+      data-minus=".minusBtn7" 
+      data-cancel=".cancelBtn7" 
+      data-amount=".amount7" 
+      data-rainydayvalue=".rainydayvalue7" 
+      data-price="7000"
+    >
+    <button class="btns">
+    <img src="imgs/raincoat/raincoat3.png" 
+         alt="raincoat" 
+         class="raincoat__img"
+    >
+    <span class="raincoat__name">raincoat3</span>
+    <span class="raincoat__price">7000원</span>
+    </button>
+    </li>
+    <li class="raincoat" 
+      data-name="raincoat4" 
+      data-class=".list-display8" 
+      data-plus=".plusBtn8" 
+      data-minus=".minusBtn8" 
+      data-cancel=".cancelBtn8" 
+      data-amount=".amount8" 
+      data-rainydayvalue=".rainydayvalue8" 
+      data-price="7000"
+    >
+    <button class="btns">
+    <img src="imgs/raincoat/raincoat4.png" 
+         alt="raincoat" 
+         class="raincoat__img"
+    >
+    <span class="raincoat__name">raincoat4</span>
+    <span class="raincoat__price">7000원</span>
+    </button>
+    </li>
+    <li class="rainboots" 
+      data-name="rainboots1" 
+      data-class=".list-display9" 
+      data-plus=".plusBtn9" 
+      data-minus=".minusBtn9" 
+      data-cancel=".cancelBtn9" 
+      data-amount=".amount9" 
+      data-rainydayvalue=".rainydayvalue9" 
+      data-price="8000"
+    >
+    <button class="btns">
+    <img src="imgs/rainboots/rainboots1.png" 
+         alt="rainboots" 
+         class="rainboots__img"
+    >
+    <span class="rainboots__name">rainboots1</span>
+    <span class="rainboots__price">8000원</span>
+    </button>
+    </li>
+     <li class="rainboots" 
+      data-name="rainboots2" 
+      data-class=".list-display10" 
+      data-plus=".plusBtn10" 
+      data-minus=".minusBtn10" 
+      data-cancel=".cancelBtn10" 
+      data-amount=".amount10" 
+      data-rainydayvalue=".rainydayvalue10" 
+      data-price="8000"
+    >
+    <button class="btns">
+    <img src="imgs/rainboots/rainboots2.png" 
+         alt="rainboots" 
+         class="rainboots__img"
+    >
+    <span class="rainboots__name">rainboots2</span>
+    <span class="rainboots__price">8000원</span>
+    </button>
+    </li>
+     <li class="rainboots" 
+      data-name="rainboots3" 
+      data-class=".list-display11" 
+      data-plus=".plusBtn11" 
+      data-minus=".minusBtn11" 
+      data-cancel=".cancelBtn11" 
+      data-amount=".amount11" 
+      data-rainydayvalue=".rainydayvalue11" 
+      data-price="5000"
+    >
+    <button class="btns">
+    <img src="imgs/rainboots/rainboots3.png" 
+         alt="rainboots" 
+         class="rainboots__img"
+    >
+    <span class="rainboots__name">rainboots3</span>
+    <span class="rainboots__price">5000원</span>
+    </button>
+    </li>
+     <li class="rainboots" 
+      data-name="rainboots4" 
+      data-class=".list-display12" 
+      data-plus=".plusBtn12" 
+      data-minus=".minusBtn12" 
+      data-cancel=".cancelBtn12" 
+      data-amount=".amount12" 
+      data-rainydayvalue=".rainydayvalue12" 
+      data-price="5000"
+    >
+    <button class="btns">
+    <img src="imgs/rainboots/rainboots4.png" 
+         alt="rainboots" 
+         class="rainboots__img"
+    >
+    <span class="rainboots__name">rainboots4</span>
+    <span class="rainboots__price">5000원</span>
+    </button>
+    </li>
+     <li class="towel" 
+      data-name="towel1" 
+      data-class=".list-display13" 
+      data-plus=".plusBtn13" 
+      data-minus=".minusBtn13" 
+      data-cancel=".cancelBtn13" 
+      data-amount=".amount13" 
+      data-rainydayvalue=".rainydayvalue13" 
+      data-price="2000"
+    >
+    <button class="btns">
+    <img src="imgs/towel/towel1.png" 
+         alt="towel" 
+         class="towel__img"
+    >
+    <span class="towel__name">towel1</span>
+    <span class="towel__price">2000원</span>
+    </button>
+    </li></li>
+     <li class="towel" 
+      data-name="towel2" 
+      data-class=".list-display14" 
+      data-plus=".plusBtn14" 
+      data-minus=".minusBtn14" 
+      data-cancel=".cancelBtn14" 
+      data-amount=".amount14" 
+      data-rainydayvalue=".rainydayvalue14" 
+      data-price="2000"
+    >
+    <button class="btns">
+    <img src="imgs/towel/towel2.png" 
+         alt="towel" 
+         class="towel__img"
+    >
+    <span class="towel__name">towel2</span>
+    <span class="towel__price">2000원</span>
+    </button>
+    </li>
+    </li>
+     <li class="towel" 
+      data-name="towel3" 
+      data-class=".list-display15" 
+      data-plus=".plusBtn15" 
+      data-minus=".minusBtn15" 
+      data-cancel=".cancelBtn15" 
+      data-amount=".amount15" 
+      data-rainydayvalue=".rainydayvalue15" 
+      data-price="2000"
+    >
+    <button class="btns">
+    <img src="imgs/towel/towel3.png" 
+         alt="towel" 
+         class="towel__img"
+    >
+    <span class="towel__name">towel3</span>
+    <span class="towel__price">2000원</span>
+    </button>
+    </li>
+    </li>
+     <li class="towel" 
+      data-name="towel4" 
+      data-class=".list-display16" 
+      data-plus=".plusBtn16" 
+      data-minus=".minusBtn16" 
+      data-cancel=".cancelBtn16" 
+      data-amount=".amount16" 
+      data-rainydayvalue=".rainydayvalue16" 
+      data-price="2000"
+    >
+    <button class="btns">
+    <img src="imgs/towel/towel4.png" 
+         alt="towel" 
+         class="towel__img"
+    >
+    <span class="towel__name">towel4</span>
+    <span class="towel__price">2000원</span>
+    </button>
+    </li>
+    </li>
+     <li class="towel" 
+      data-name="towel5" 
+      data-class=".list-display17" 
+      data-plus=".plusBtn17" 
+      data-minus=".minusBtn17" 
+      data-cancel=".cancelBtn17" 
+      data-amount=".amount17" 
+      data-rainydayvalue=".rainydayvalue17" 
+      data-price="2000"
+    >
+    <button class="btns">
+    <img src="imgs/towel/towel5.png" 
+         alt="towel" 
+         class="towel__img"
+    >
+    <span class="towel__name">towel5</span>
+    <span class="towel__price">2000원</span>
+    </button>
+    </li>
+  </ul>
+  <!-- 결제정보 -->
+  <div class="count">
+    <!-- ------------------------------------------- -->
+    <div class="count__balance">
+    <div class="balance__value">
+      <span>사용가능금액: </span>
+      <span class="value">0</span>
+    </div>
+      <button class="chargingBtn">충전</button>
+    </div>
+    <!-- ------------------------------------------- -->
+    <div class="count__order">
+      <ul class="order__list">
+        <li class="list-description">
+          <span>이미지</span>
+          <span>상품명</span>
+          <span>가격</span>
+          <span>수량</span>
+          <span>삭제</span>
+        </li>
+        <!-- 선택목록 -->
+        <li class="list list-display1">
+              <img src="imgs/umbllera/umbllera1.png" 
+                   alt="umbllera" 
+                   class="list__img"
+              >
+              <span>umbllera1</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue1">10000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount1" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn1">+</button>
+                  <button class="minusBtn1">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn1">x</button>
+        </li>
+        <li class="list list-display2">
+              <img src="imgs/umbllera/umbllera2.png" 
+                   alt="umbllera" 
+                   class="list__img"
+              >
+              <span>umbllera2</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue2">10000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount2" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn2">+</button>
+                  <button class="minusBtn2">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn2">x</button>
+        </li>
+        <li class="list list-display3">
+              <img src="imgs/umbllera/umbllera3.png" 
+                   alt="umbllera" 
+                   class="list__img"
+              >
+              <span>umbllera3</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue3">7000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount3" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn3">+</button>
+                  <button class="minusBtn3">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn3">x</button>
+        </li>
+        <li class="list list-display4">
+              <img src="imgs/umbllera/umbllera4.png" 
+                   alt="umbllera" 
+                   class="list__img"
+              >
+              <span>umbllera4</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue4">7000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount4" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn4">+</button>
+                  <button class="minusBtn4">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn4">x</button>
+        </li>
+        <li class="list list-display5">
+              <img src="imgs/raincoat/raincoat1.png" 
+                   alt="raincoat" 
+                   class="list__img"
+              >
+              <span>raincoat1</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue5">10000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount5" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn5">+</button>
+                  <button class="minusBtn5">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn5">x</button>
+        </li>
+        <li class="list list-display6">
+              <img src="imgs/raincoat/raincoat2.png" 
+                   alt="raincoat" 
+                   class="list__img"
+              >
+              <span>raincoat2</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue6">10000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount6" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn6">+</button>
+                  <button class="minusBtn6">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn6">x</button>
+        </li>
+        <li class="list list-display7">
+              <img src="imgs/raincoat/raincoat3.png" 
+                   alt="raincoat" 
+                   class="list__img"
+              >
+              <span>raincoat3</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue7">7000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount7" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn7">+</button>
+                  <button class="minusBtn7">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn7">x</button>
+        </li>
+        <li class="list list-display8">
+              <img src="imgs/raincoat/raincoat4.png" 
+                   alt="raincoat" 
+                   class="list__img"
+              >
+              <span>raincoat4</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue8">7000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount8" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn8">+</button>
+                  <button class="minusBtn8">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn8">x</button>
+        </li>
+        <li class="list list-display9">
+              <img src="imgs/rainboots/rainboots1.png" 
+                   alt="rainboots" 
+                   class="list__img"
+              >
+              <span>rainboots1</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue9">8000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount9" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn9">+</button>
+                  <button class="minusBtn9">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn9">x</button>
+        </li>
+        <li class="list list-display10">
+              <img src="imgs/rainboots/rainboots2.png" 
+                   alt="rainboots" 
+                   class="list__img"
+              >
+              <span>rainboots2</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue10">8000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount10" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn10">+</button>
+                  <button class="minusBtn10">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn10">x</button>
+        </li>
+        <li class="list list-display11">
+              <img src="imgs/rainboots/rainboots3.png" 
+                   alt="rainboots" 
+                   class="list__img"
+              >
+              <span>rainboots3</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue11">5000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount11" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn11">+</button>
+                  <button class="minusBtn11">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn11">x</button>
+        </li>
+        <li class="list list-display12">
+              <img src="imgs/rainboots/rainboots4.png" 
+                   alt="rainboots" 
+                   class="list__img"
+              >
+              <span>rainboots4</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue12">5000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount12" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn12">+</button>
+                  <button class="minusBtn12">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn12">x</button>
+        </li>
+        <li class="list list-display13">
+              <img src="imgs/towel/towel1.png" 
+                   alt="towel" 
+                   class="list__img"
+              >
+              <span>towel1</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue13">2000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount13" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn13">+</button>
+                  <button class="minusBtn13">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn13">x</button>
+        </li>
+        <li class="list list-display14">
+              <img src="imgs/towel/towel2.png" 
+                   alt="towel" 
+                   class="list__img"
+              >
+              <span>towel2</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue14">2000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount14" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn14">+</button>
+                  <button class="minusBtn14">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn14">x</button>
+        </li>
+        <li class="list list-display15">
+              <img src="imgs/towel/towel3.png" 
+                   alt="towel" 
+                   class="list__img"
+              >
+              <span>towel3</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue15">2000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount15" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn15">+</button>
+                  <button class="minusBtn15">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn15">x</button>
+        </li>
+        <li class="list list-display16">
+              <img src="imgs/towel/towel4.png" 
+                   alt="towel" 
+                   class="list__img"
+              >
+              <span>towel4</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue16">2000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount16" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn16">+</button>
+                  <button class="minusBtn16">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn16">x</button>
+        </li>
+        <li class="list list-display17">
+              <img src="imgs/towel/towel5.png" 
+                   alt="towel" 
+                   class="list__img"
+              >
+              <span>towel5</span>
+              <div class="rainydayvalue">
+                <span class="rainydayvalue17">2000</span><span>원</span>
+              </div>
+
+              <div class="option">
+                <input type="text" 
+                       name="amount" 
+                       class="amount17" 
+                       value="1" 
+                       readonly="" 
+                       disabled=""
+                >
+                <div class="buttons">
+                  <button class="plusBtn17">+</button>
+                  <button class="minusBtn17">-</button>
+                </div>
+              </div>
+              <button class="cancelBtn17">x</button>
+        </li>
+      </ul>
+      <div class="order__sum">
+        <span>합계: </span><span class="sum">0</span>
+      </div>
+      <!-- ------------------------------------------- -->
+      <button class="count__pay">결제하기</button>
+    </div>
+  </div>
+        </body>
+</html>
